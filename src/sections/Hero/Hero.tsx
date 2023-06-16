@@ -7,7 +7,8 @@ function Hero(){
         <section className={styles.hero}>
             <Image src={image} alt='Daniel Evgrafov' className={styles.image} />
             <aside>
-            <h1>Hello there, my name is Daniel Evgrafov</h1>
+            <h1>Daniel Evgrafov</h1>
+            <h2>Full-Stack Developer</h2>
             </aside>
         </section>
     )
