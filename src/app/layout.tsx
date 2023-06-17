@@ -6,9 +6,11 @@ import localfont from "next/font/local";
 const montserrat = Montserrat({
   weight: "400",
   subsets: ["latin"],
+  variable: '--font-montserrat',
 });
 
 const opensans = localfont({
+  variable: '--font-opensans',
   src: [
     {
       path: "../../public/fonts/OpenSans-Regular.woff2",
@@ -28,7 +30,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <>
       <html
         lang="en"
-        className={`${opensans.className} ${montserrat.className}`}
+        className={`${montserrat.variable} ${opensans.variable}`}
       >
         <body>
           <div>{children}</div>
