@@ -1,0 +1,17 @@
+export const skills = [
+    { src: require('@images/html.svg').default, alt: 'HTML' },
+    { src: require('@images/css.svg'), alt: 'CSS' },
+    { src: require('@images/git.svg'), alt: 'Git' },
+    { src: require('@images/api.svg'), alt: 'API' },
+    { src: require('@images/jira.svg'), alt: 'Jira' },
+    { src: require('@images/js.svg'), alt: 'JavaScript' },
+    { src: require('@images/testing.svg'), alt: 'Testing' },
+    { src: require('@images/next.svg'), alt: 'Next.js' },
+    { src: require('@images/node.svg'), alt: 'Node.js' },
+    { src: require('@images/react.svg'), alt: 'React' },
+    { src: require('@images/responsive.svg'), alt: 'Responsive Design' },
+    { src: require('@images/sass.svg'), alt: 'Sass' },
+    { src: require('@images/terminal.svg'), alt: 'Terminal' },
+    { src: require('@images/ts.svg'), alt: 'TypeScript' },
+    { src: require('@images/mongo.svg'), alt: 'MongoDB' },
+];

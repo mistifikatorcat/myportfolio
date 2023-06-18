@@ -1,8 +1,39 @@
 .hero{
+    padding: 120px 0;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+
+    // .wrapper{
+    //     height: 800px;
+    //     width: 800px;
+    //     display: flex;
+    //     border-radius: 40%;
+    //     align-items: center;
+    //     align-self: center;
+    //     flex-direction: column;
+    //     background: radial-gradient(#000, #080808);
+    // }
+
+    .image{
+        height: 700px;
+        width: 600px;
+        border-radius: 15%;
+    }
+
+    aside{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
 
     h1{
         font-size: 78px;
         font-weight: 800;
+        margin: 0;
         // text-align: center;
     }
 }

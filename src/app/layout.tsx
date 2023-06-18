@@ -1,7 +1,15 @@
 import "normalize.css/normalize.css";
 import "./globals.scss";
 import { Montserrat } from "next/font/google";
+import { Baumans } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import localfont from "next/font/local";
+
+const baumans = Baumans({
+  variable: '--font-baumans',
+  weight: "400",
+  subsets: ["latin"],
+})
 
 const montserrat = Montserrat({
   weight: "400",
@@ -9,16 +17,22 @@ const montserrat = Montserrat({
   variable: '--font-montserrat',
 });
 
-const opensans = localfont({
+const opensans = Open_Sans({
+  weight: "400",
+  subsets: ["latin"],
   variable: '--font-opensans',
-  src: [
-    {
-      path: "../../public/fonts/OpenSans-Regular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-  ],
 });
+
+// const opensans = localfont({
+//   variable: '--font-opensans',
+//   src: [
+//     {
+//       path: "../../public/fonts/OpenSans-Regular.woff2",
+//       weight: "400",
+//       style: "normal",
+//     },
+//   ],
+// });
 
 export const metadata = {
   title: "Create Next App",
