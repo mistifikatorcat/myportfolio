@@ -1,4 +1,27 @@
-.icon{
-    fill: #fff;
-    color: #fff;
+.skills{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        text-align: center;
+    }
+
+    .grid{
+
+        padding-top: 80px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+        gap: 80px;
+    }
+
+
+    .icon{
+        height: 120px;
+        width: 120px;
+    }
 }

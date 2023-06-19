@@ -1,15 +1,10 @@
 import "normalize.css/normalize.css";
 import "./globals.scss";
 import { Montserrat } from "next/font/google";
-import { Baumans } from "next/font/google";
 import { Open_Sans } from "next/font/google";
 import localfont from "next/font/local";
 
-const baumans = Baumans({
-  variable: '--font-baumans',
-  weight: "400",
-  subsets: ["latin"],
-})
+
 
 const montserrat = Montserrat({
   weight: "400",

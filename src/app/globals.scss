@@ -31,10 +31,17 @@ h2 {
     font-size: 48px;
     line-height: 46px;
   }
+
+  h3{
+    font-family: var(--font-montserrat);
+    font-style: normal;
+    font-weight: 400;
+  }
   
   p {
     font-family: var(--font-opensans);
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    line-height: 30px;
   }

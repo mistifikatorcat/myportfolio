@@ -11,11 +11,6 @@ function Hero(){
             <aside>
             <h1>Daniel Evgrafov</h1>
             <h2>Full-Stack Developer</h2>
-            <p>
-                Daniel Evgrafov
-                <br />
-                Full-Stack Developer
-            </p>
             </aside>
         </section>
     )
