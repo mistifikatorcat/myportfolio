@@ -8,7 +8,7 @@ function Header(){
         <header className={styles.header}>
             <nav className={styles.menu}>
                 <Link href="#about" className={styles.link}>About</Link>
-                <Link href="/" className={styles.link}>My Projects</Link>
+                <Link href="#projects" className={styles.link}>My Projects</Link>
                 <Link href="/" className={styles.link}>Contact me</Link>
             </nav>
         </header>
