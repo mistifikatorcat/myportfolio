@@ -4,7 +4,7 @@ import styles from './Constact.module.scss';
 
 function Contact(){
     return(
-        <section className={styles.contact}>
+        <section className={styles.contact} id='contact'>
             <h2>Contact me:</h2>
             <Form />
         </section>
