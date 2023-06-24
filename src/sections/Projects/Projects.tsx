@@ -12,9 +12,9 @@ function Projects(){
                     <Project
                         key={index}
                         src={project.src}
-                        alt={project.alt}
                         heading={project.heading}
                         description={(project.description)}
+                        features={(project.features)}
                         />
                 ))
                 }
