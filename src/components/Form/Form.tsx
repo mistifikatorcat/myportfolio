@@ -17,12 +17,12 @@ function Form(/*{onSend}*/) {
     // onSend(data);
 
     try {
-      const response = await fetch("@api/sendMessage", {
+      const response = await fetch("/api/sendMessage", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name, email, message }),
+        body: JSON.stringify({ name, email, message }, null, 2),
       });
 
       if (response.ok) {
