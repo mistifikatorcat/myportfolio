@@ -1,5 +1,5 @@
 import styles from './Skills.module.scss';
-import Image from 'next/image';
+import Icon from '@/components/Icon/Icon';
 import { skills } from '@/utils/variables';
 
 
@@ -10,12 +10,11 @@ function Skills(){
             <h2>My Skills:</h2>
             <div className={styles.grid}>
                 {skills.map((skill, index) => (
-                    <Image
+                    <Icon
                         key={index}
                         src={skill.src}
                         alt={skill.alt}
-                        className={styles.icon}
-                        />
+                        />    
                 ))}
             </div>
         </section>

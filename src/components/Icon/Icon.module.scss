@@ -1,0 +1,52 @@
+.icon{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: transform 0.3s;
+
+    &:hover{
+        .bubble{
+            visibility: visible;
+            opacity: 1;
+        }
+        .image{
+            transform: translateY(-20px);
+        }
+    }
+   
+    .bubble{
+
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120px;
+        padding: 0;
+        background-color: transparent;
+        // color: #fff;
+        font-size: 14px;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s, visibility 0.3s, bottom 0.3s;
+
+    }
+
+    .image{
+     
+        height: 120px;
+        width: 120px;
+        transition: 0.3s;
+        padding-bottom: 10px;
+        }
+ 
+
+
+
+
+    p{
+        text-align: center;
+    }
+}

@@ -42,7 +42,6 @@ function Form(/*{onSend}*/) {
 
   return <form className={styles.form} onSubmit={handleSubmit}>
     <fieldset className={styles.fieldset}>
-        <label className={styles.label}>Your Name</label>
         <input
           type="text"
           name="name"
@@ -55,7 +54,6 @@ function Form(/*{onSend}*/) {
         />
         <br />
 
-        <label className={styles.label}>Your Email</label>
         <input
           type="email"
           name="email"
@@ -67,11 +65,11 @@ function Form(/*{onSend}*/) {
         
         />
         <br />
-        <label className={styles.label}>Your Message:</label>
         <textarea
           name="message"
           placeholder="Your message"
           value={message}
+          className={styles.textarea}
           required
           onChange={(e) => setMessage(e.target.value)}
          
@@ -79,7 +77,7 @@ function Form(/*{onSend}*/) {
         
         <br />
         <button type="submit" className={styles.button}>
-            Submit
+            Get in touch
         </button>
       </fieldset>
   </form>;
