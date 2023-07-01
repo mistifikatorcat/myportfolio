@@ -1,9 +1,25 @@
 .project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .wrapper{
+        max-width: 600px;
+    }
 
     .image{
-        
-        max-width: 600px;
-        height: 300px;
+        display: block;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-height: 300px;
 
+    }
+
+    .text{
+        max-width: 400px;
     }
 }

@@ -77,7 +77,7 @@ function Form(/*{onSend}*/) {
         
         <br />
         <button type="submit" className={styles.button}>
-            Get in touch
+            <span className={styles.buttonText}>Get in touch</span>
         </button>
       </fieldset>
   </form>;

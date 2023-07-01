@@ -5,8 +5,12 @@
     align-items: center;
     position: relative;
     transition: transform 0.3s;
+    border-radius: 10px;
 
     &:hover{
+        box-shadow: inset 1px -20px 20px 20px;
+        transform: translateY(-20px);
+
         .bubble{
             visibility: visible;
             opacity: 1;

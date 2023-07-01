@@ -79,9 +79,25 @@
   border: 1px solid #E67E22;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.3s;
+
+  .buttonText{
+    transition: 0.3s;
+  }
+
+  &:hover {
+    background-color:#E67E22;
+   //  color: #FFF;
+    box-shadow: 1px 1px 18px 4px;
+
+    .buttonText{
+      color: #FFF;
+    }
+
+  }
+
+ 
 
 }
 
-.button:hover {
-//   background-color: darken($form-button-background-color, 10%);
-}
+
