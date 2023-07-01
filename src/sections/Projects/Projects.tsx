@@ -15,6 +15,7 @@ function Projects(){
                         heading={project.heading}
                         description={(project.description)}
                         features={(project.features)}
+                        align={index % 2 === 0 ? 'left' : 'right'}
                         />
                 ))
                 }

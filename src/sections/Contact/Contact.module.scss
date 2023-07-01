@@ -1,8 +1,8 @@
 .contact{
 
     padding-top: 75px;
-    max-width: 1200px;
-    padding: 40px;
+    max-width: 1600px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -14,8 +14,10 @@
     .wrap{
         display: flex;
     flex-direction: row;
-    align-items: center;
+    // align-items: center;
     justify-content: center;
+    // align-self: stretch;
+    gap: 35px;
 }
     
     .formWrapper{
@@ -25,13 +27,27 @@
 
     .textWrapper{
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        max-width: 400px;
+
+   
+        gap: 20px;
+        
     }
     
 
     h2{
         padding-bottom: 60px;
         text-align: center;
+    }
+
+
+    .link{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
     }
 
 }

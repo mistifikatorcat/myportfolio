@@ -7,19 +7,54 @@
 
     .wrapper{
         max-width: 600px;
+        transition: 0.3s;
+        border-radius: 20px;
+        max-height: 400px;
+        &:hover{
+            box-shadow: 1px 1px 18px 4px;
+
+        }
     }
 
     .image{
         display: block;
         width: 100%;
+        height: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        max-height: 300px;
+        border-radius: 20px;
 
     }
 
-    .text{
+    .textRight{
         max-width: 400px;
+        text-align: right;
+    }
+
+    .textLeft{
+        max-width: 400px;
+        text-align: left;
+    }
+
+    .heading{
+        font-size: 22px;
+        color: #fff;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+
+    .smallHeading{
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+
+    .features{
+        font-size: 16px;
+        font-style: oblique;
     }
 }

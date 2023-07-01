@@ -1,5 +1,6 @@
 import Form from '@/components/Form/Form';
-import styles from './Constact.module.scss';
+import styles from './Contact.module.scss';
+import Link from 'next/link';
 
 
 function Contact(){
@@ -11,7 +12,12 @@ function Contact(){
                     <Form />    
                 </div>
                 <div className={styles.textWrapper}>
-                    <p>Here you can contact me and discuss anything.</p>
+                    <p className={styles.text}>If you have any questions about me or my projects, or discuss some of the best cars I would love to chat!</p>
+                    <br />
+                    <p className={styles.text}>I&apos;m available any time, any place, so feel free to drop a comment, question, offer, concern, and let&apos;s talk!</p>
+                    <br />
+                    <p className={styles.text}>Or you can just mail me at: </p>
+                        <Link href='mailto:danyaevgrafov@gmail.com' className={styles.link}>danyaevgrafov@gmail.com</Link>
                 </div>
             </div>
         </section>
