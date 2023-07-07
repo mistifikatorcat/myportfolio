@@ -27,14 +27,18 @@
 
     }
 
-    .textRight{
+    .text{
         max-width: 400px;
+    }
+
+    .textRight{
         text-align: right;
     }
 
     .textLeft{
-        max-width: 400px;
         text-align: left;
+        -webkit-animation: slide-in-left 2s ease-out both;
+	    animation: slide-in-left 2s ease-out both;
     }
 
     .heading{

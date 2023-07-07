@@ -10,7 +10,7 @@ function Hero(){
           </div>
             <aside>
             <h1>Daniel Evgrafov</h1>
-            <h2>Full-Stack Developer</h2>
+            <h2>Full-Stack JS Developer</h2>
             </aside>
         </section>
     )

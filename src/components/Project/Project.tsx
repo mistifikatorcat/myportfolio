@@ -1,6 +1,7 @@
 import styles from "./Project.module.scss";
 import Image from "next/image";
 
+
 function Project({
   src,
   heading,
@@ -18,10 +19,10 @@ function Project({
     <div className={styles.project}>
       {align === "left" ? (
         <>
-          <div className={styles.wrapper}>
-            <Image src={src} alt={heading} className={styles.image} />
+          <div className={styles.wrapper} data-aos='fade-right'>
+            <Image src={src} alt={heading} className={`${styles.image} ${styles.imageLeft}`} />
           </div>
-          <div className={styles.textRight}>
+          <div className={`${styles.text} ${styles.textRight}`} data-aos='fade-left'>
             <h3 className={styles.heading}>{heading}</h3>
             <br />
             <p>{description}</p>
@@ -32,15 +33,15 @@ function Project({
         </>
       ) : (
         <>
-          <div className={styles.textLeft}>
+          <div className={`${styles.text} ${styles.textLeft}`} data-aos='fade-right'>
             <h3 className={styles.heading}>{heading}</h3>
             <p>{description}</p>
             <br />
             <span className={styles.smallHeading}>Features: </span>
             <span className={styles.features}>{features}</span>
           </div>
-          <div className={styles.wrapper}>
-            <Image src={src} alt={heading} className={styles.image} />
+          <div className={styles.wrapper} data-aos='fade-left'>
+            <Image src={src} alt={heading} className={`${styles.image} ${styles.imageRight}`} />
           </div>
         </>
       )}
