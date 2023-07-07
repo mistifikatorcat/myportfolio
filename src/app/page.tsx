@@ -9,6 +9,12 @@ import Contact from '@/sections/Contact/Contact';
 import Footer from '@/components/Footer/Footer';
 
 
+export const metadata = {
+  title: "Daniel Evgrafov",
+  description: "Full-Stack developer",
+};
+
+
 
 export default function Home() {
   return (

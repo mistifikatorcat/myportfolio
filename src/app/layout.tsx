@@ -24,10 +24,7 @@ const opensans = Open_Sans({
 });
 
 
-export const metadata = {
-  title: "Daniel Evgrafov",
-  description: "Full-Stack developer",
-};
+
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   useEffect(() => {
