@@ -5,6 +5,7 @@ import Hero from '@/sections/Hero/Hero';
 import About from '@/sections/About/About';
 import Skills from '@/sections/Skills/Skills';
 import Projects from '@/sections/Projects/Projects';
+import MobileList from '@/components/Mobile/List/MobileList';
 import Contact from '@/sections/Contact/Contact';
 import Footer from '@/components/Footer/Footer';
 
@@ -24,6 +25,7 @@ export default function Home() {
      <About />
      <Skills />
      <Projects />
+     <MobileList />
      <Contact />
      <Footer />
     </main>

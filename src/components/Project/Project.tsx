@@ -20,7 +20,7 @@ function Project({
       {align === "left" ? (
         <>
           <div className={styles.wrapper} data-aos='fade-right'>
-            <Image src={src} alt={heading} className={`${styles.image} ${styles.imageLeft}`} />
+            <Image src={src} alt={heading} className={`${styles.image} `} />
           </div>
           <div className={`${styles.text} ${styles.textRight}`} data-aos='fade-left'>
             <h3 className={styles.heading}>{heading}</h3>
@@ -41,7 +41,7 @@ function Project({
             <span className={styles.features}>{features}</span>
           </div>
           <div className={styles.wrapper} data-aos='fade-left'>
-            <Image src={src} alt={heading} className={`${styles.image} ${styles.imageRight}`} />
+            <Image src={src} alt={heading} className={`${styles.image} `} />
           </div>
         </>
       )}
