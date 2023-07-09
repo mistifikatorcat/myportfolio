@@ -5,11 +5,7 @@
     align-items: center;
     flex-wrap: wrap;
 
-    @media (max-width: 930px) {
-        display: none;
-        opacity: 0;
-    }
-
+  
     .wrapper{
         max-width: 600px;
         transition: 0.3s;

@@ -44,6 +44,18 @@
         width: 120px;
         transition: 0.45s;
         padding-bottom: 10px;
+
+
+        @media (max-width: 600px) {
+         height: 90px;
+         width: 90px;
+        }
+
+        @media (max-width: 483px) {
+            height: 60px;
+         width: 60px;
+        }
+
         }
  
 
