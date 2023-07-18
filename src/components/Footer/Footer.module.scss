@@ -2,6 +2,11 @@
     padding-top: 280px;
     margin: 0 auto;
     text-align: center;
+    
+    @media (max-width: 800px) {
+    
+        padding-top: 60px;
+    }
 
     .text{
         text-transform: uppercase;
