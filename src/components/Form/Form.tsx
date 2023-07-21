@@ -9,9 +9,12 @@ function Form(/*{onSend}*/) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    setLoading(true);
     // const data = { name, email, message };
 
     // onSend(data);
@@ -38,6 +41,9 @@ function Form(/*{onSend}*/) {
       console.error(error);
       console.log("Failed to send message. Please try again later.");
     }
+    finally{
+      setLoading(false);
+    }
   };
 
   return <form className={styles.form} onSubmit={handleSubmit}>
@@ -50,6 +56,7 @@ function Form(/*{onSend}*/) {
           value={name}
           required
           onChange={(e) => setName(e.target.value)}
+          disabled={loading}
           
         />
         <br />
@@ -62,6 +69,8 @@ function Form(/*{onSend}*/) {
           value={email}
           required
           onChange={(e) => setEmail(e.target.value)}
+          disabled={loading}
+
         
         />
         <br />
@@ -72,12 +81,13 @@ function Form(/*{onSend}*/) {
           className={styles.textarea}
           required
           onChange={(e) => setMessage(e.target.value)}
+          disabled={loading}
          
         />
         
         <br />
         <button type="submit" className={styles.button}>
-            <span className={styles.buttonText}>Get in touch</span>
+          {loading ? <span className={styles.buttonText}>Sending...</span> : <span className={styles.buttonText}>Get in touch</span>}
         </button>
       </fieldset>
   </form>;
