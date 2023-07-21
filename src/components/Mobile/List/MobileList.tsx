@@ -15,6 +15,7 @@ function MobileList(){
                         heading={project.heading}
                         description={(project.description)}
                         features={(project.features)}
+                        link={project.link}
                         />
                 ))
                 }
