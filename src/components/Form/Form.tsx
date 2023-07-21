@@ -86,9 +86,13 @@ function Form(/*{onSend}*/) {
         />
         
         <br />
-        <button type="submit" className={styles.button}>
-          {loading ? <span className={styles.buttonText}>Sending...</span> : <span className={styles.buttonText}>Get in touch</span>}
-        </button>
+          {loading ? 
+            <button type="submit" className={`${styles.button} ${styles.disabled}`} disabled>
+          <span className={styles.buttonText}>Sending...</span> 
+          </button>: 
+          <button type="submit" className={styles.button} >
+          <span className={styles.buttonText}>Get in touch</span>
+       </button>}
       </fieldset>
   </form>;
 }

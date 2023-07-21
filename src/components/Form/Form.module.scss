@@ -82,6 +82,8 @@
   cursor: pointer;
   transition: 0.3s;
 
+
+
   .buttonText{
     transition: 0.3s;
   }
@@ -99,6 +101,18 @@
 
  
 
+}
+
+.disabled{
+  color: #FFF;
+  border: 1px solid #FFF;
+  opacity: 0.3;
+  &:hover{
+    color: #FFF;
+    border: 1px solid #FFF;
+    opacity: 0.3;
+    box-shadow: none;
+  }
 }
 
 
