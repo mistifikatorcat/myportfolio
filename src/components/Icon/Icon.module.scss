@@ -30,11 +30,14 @@
         padding: 0;
         background-color: transparent;
         // color: #fff;
-        font-size: 14px;
         text-align: center;
         visibility: hidden;
         opacity: 0;
         transition: opacity 0.45s, visibility 0.45s, bottom 0.45s;
+
+        .bubbleText{
+        font-size: 14px;
+        }
 
     }
 

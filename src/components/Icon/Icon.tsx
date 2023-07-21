@@ -6,7 +6,7 @@ function Icon({ src, alt }: {src: string, alt: string}) {
     <div className={styles.icon}>
       <Image src={src} alt={alt} className={styles.image} />
         <div className={styles.bubble}>
-            <p>{alt}</p>
+            <p className={styles.bubbleText}>{alt}</p>
         </div>
     </div>
   );

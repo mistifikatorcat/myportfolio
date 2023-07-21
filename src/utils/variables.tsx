@@ -9,7 +9,7 @@ export const skills = [
     { src: require("@images/next.svg").default, alt: "Next.js" },
     { src: require("@images/node.svg").default, alt: "Node.js" },
     { src: require("@images/react.svg").default, alt: "React" },
-    { src: require("@images/responsive.svg").default, alt: "Responsive Design" },
+    { src: require("@images/responsive.svg").default, alt: "Adaptive Design" },
     { src: require("@images/sass.svg").default, alt: "Sass" },
     { src: require("@images/terminal.svg").default, alt: "Terminal" },
     { src: require("@images/ts.svg").default, alt: "TypeScript" },
