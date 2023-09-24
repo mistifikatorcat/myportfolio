@@ -27,4 +27,8 @@ export const projects = [
     {src: require("@images/homeland.png").default, link: 'https://github.com/mistifikatorcat/web_project_3', heading: "From Homeland to Homeland", description: "This is the second project of the Web Development program at Practicum by Yandex. It was created using HTML and CSS, based on the design brief.", features: "Semantic HTML5, BEM, CSS"},
     {src: require("@images/coffeeshop.png").default, link: 'https://github.com/mistifikatorcat/project_2', heading: "CoffeeShop", description: "My first project as a part of Practicum course. Plain html and css, nothing more, nothing less.", features: "html, css"},
 
-]
+];
+
+export const currentProjects = [
+    {src: require("@images/desight.png").default, link:'https://github.com/matveisch/desight', heading: 'Desight Studio', description: "The website for the startup studio, I'm currently a part of.", features: "Next.js, zod, TS, Sass"}
+];
