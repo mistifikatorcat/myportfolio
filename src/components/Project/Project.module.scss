@@ -7,10 +7,11 @@
 
   
     .wrapper{
-        max-width: 600px;
+        max-width: 800px;
+        min-height: 300px;
         transition: 0.3s;
         border-radius: 20px;
-        max-height: 400px;
+        // max-height: 400px;
 
         &:hover{
             box-shadow: 1px 1px 18px 4px;
@@ -53,10 +54,10 @@
     }
 
     .heading{
-        font-size: 22px;
-        color: #fff;
-        letter-spacing: 2px;
-        text-transform: uppercase;
+        // font-size: 22px;
+        // color: #fff;
+        // letter-spacing: 2px;
+        // text-transform: uppercase;
         padding-bottom: 15px;
     }
 

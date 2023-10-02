@@ -30,5 +30,5 @@ export const projects = [
 ];
 
 export const currentProjects = [
-    {src: require("@images/desight.png").default, link:'https://github.com/matveisch/desight', heading: 'Desight Studio', description: "The website for the startup studio, I'm currently a part of.", features: "Next.js, zod, TS, Sass"}
+    {src: require("@images/desight.png").default, link:'https://github.com/matveisch/desight', heading: 'Desight Studio', description: "The website for the startup studio, I'm currently being a part of. It has complex design and plenty of cool animations that I was happy to look-through and learn about.", features: "Next.js, zod, TS, Sass"}
 ];
