@@ -9,7 +9,8 @@ function Project({
   description,
   features,
   align,
-  link
+  link,
+  web
 }: {
   src: string;
   heading: string;
@@ -17,6 +18,7 @@ function Project({
   features: string;
   align: string;
   link: string;
+  web: string;
 }) {
   return (
     <div className={styles.project}>
@@ -32,8 +34,17 @@ function Project({
             <br />
             <p>{description}</p>
             <br />
-            <span className={styles.smallHeading}>Features: </span>
-            <span className={styles.features}>{features}</span>
+            <div className={styles.smallBlock}>
+                <span className={styles.smallHeading}>Features: </span>
+                <span className={styles.features}>{features}</span>
+            </div>
+            <br />
+            { web === "none" ? (
+              <span className={styles.noLink}><Link href={web}>Live Website</Link> </span>
+            ) : (
+              <span><Link className={styles.webLink} href={web}>Live Website</Link> </span>
+            )}
+            
           </div>
         </>
       ) : (
@@ -44,8 +55,16 @@ function Project({
             </Link>
             <p>{description}</p>
             <br />
-            <span className={styles.smallHeading}>Features: </span>
-            <span className={styles.features}>{features}</span>
+            <div className={styles.smallBlock}>
+                <span className={styles.smallHeading}>Features: </span>
+                <span className={styles.features}>{features}</span>
+            </div>
+            <br />
+            { web === "none" ? (
+              <span className={styles.noLink}><Link href={web}>Live Website</Link> </span>
+            ) : (
+              <span><Link className={styles.webLink} href={web}>Live Website</Link> </span>
+            )}
           </div>
           <div className={styles.wrapper} data-aos='fade-left'>
             <Image src={src} alt={heading} className={`${styles.image} `} />

@@ -6,7 +6,7 @@ import { projects } from '@/utils/variables';
 function Projects(){
     return(
         <section className={styles.projects}>
-            <h2>My Projects:</h2>
+            <h2>Projects I've been a part of:</h2>
             <div className={styles.wrapper}>
                 {projects.map((project, index) => (
                     <Project
@@ -17,6 +17,7 @@ function Projects(){
                         features={(project.features)}
                         align={index % 2 === 0 ? 'left' : 'right'}
                         link={project.link}
+                        web={project.web}
                         />
                 ))
                 }
