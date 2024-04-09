@@ -6,7 +6,7 @@ import { projects } from '@/utils/variables';
 function Projects(){
     return(
         <section className={styles.projects}>
-            <h2>Projects I've been a part of:</h2>
+            <h2>Projects I&apos;ve been a part of:</h2>
             <div className={styles.wrapper}>
                 {projects.map((project, index) => (
                     <Project

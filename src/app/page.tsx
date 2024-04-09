@@ -8,7 +8,7 @@ import Projects from '@/sections/Projects/Projects';
 import MobileList from '@/components/Mobile/List/MobileList';
 import Contact from '@/sections/Contact/Contact';
 import Footer from '@/components/Footer/Footer';
-import CurrentProject from '@/sections/CurrentProject/CurrentProject';
+// import CurrentProject from '@/sections/CurrentProject/CurrentProject';
 import Plans from '@/sections/Plans/Plans';
 
 export const metadata = {
@@ -25,7 +25,7 @@ export default function Home() {
      <Hero />
      <About />
      <Skills />
-     <Plans />
+     {/* <Plans /> */}
      {/* <CurrentProject /> */}
      <Projects />
      <MobileList />
