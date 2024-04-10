@@ -1,0 +1,22 @@
+.plans{
+    display: flex;
+    flex-direction: column;
+    padding: 75px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+
+
+    h2{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .planBoard{
+        display: flex;
+        flex-direction: row;
+        // align-items: stretch;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20vw;
+}
+}

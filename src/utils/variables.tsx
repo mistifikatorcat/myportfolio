@@ -32,3 +32,10 @@ export const projects = [
 export const currentProjects = [
     {src: require("@images/placeholder.png").default, link:'https://github.com/mistifikatorcat/tablemafia', heading: '10LN Mafia Club', description: "I like to play the intellectual game of Mafia, also known as Werewolf. Right now I'm working on an online-hub for the members of our club, where people can chat, discuss and keep track of their games and individual plays. As for now, I am working on a back-end side of the project, the design is under construction.", features: "To Be Determined"}
 ];
+
+export const plans = [
+
+    {title: "CREATING THE HUB FOR MAFIA-GAME CLUB.", steps: ['Collected the inital information about players', 'Based on the info, created a database on which the back-end will be formed'], haveTo: ['Create complete API for the hub', 'Design a website', 'Write the front-end and connect it to the back-end']},
+    {title: "GETTING A JOB IN HI-TECH SPHERE", steps: ['Studied the Full-Stack development', 'Hardened up my skills in real-life projects', 'Created CV', 'Created own web-portfolio'], haveTo: ['Send my CV to the fellow HRs and organizations', 'Pass the interview', 'Become a part of a team, improve my skills, find friends within my fellow colleagues']},
+
+]
