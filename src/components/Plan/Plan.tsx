@@ -28,7 +28,7 @@ function Plan({
         }`}
       >
         {steps.map((step) => (
-          <li key={step}>{step}</li>
+          <li className={styles.step} key={step}>{step}</li>
         ))}
       </ul>
       <span className={styles.subtitle}>What I have to do:</span>
@@ -38,7 +38,7 @@ function Plan({
         }`}
       >
         {haveTo.map((item) => (
-          <li key={item}>{item}</li>
+          <li className={styles.step} key={item}>{item}</li>
         ))}
       </ul>
     </div>
