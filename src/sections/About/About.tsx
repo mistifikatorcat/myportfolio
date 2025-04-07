@@ -9,9 +9,9 @@ function About(){
             <div className={styles.content}>
                 <div className={styles.personal}>
                     <div className={styles.text}>
-                        <p>I am Full-Stack developer with a strong aspiration to excel in the Hi-Tech field. I&apos;m not afraid of challenges and have a strong dedication to continuous learning and strive to stay up-to-date with the latest advancements in web development.</p>
+                        <p>I am Full-Stack developer with around 3 years of experience, mostly focused on frontend and later switched to mobile development.</p>
                         <br />
-                        <p>Apart from the web-development, I&apos;m passionate about cars, photography and curious about science. Also I&apos;m fluent in English and Russian, know Hebrew, and I&apos;m currently studying Finnish.</p>
+                        <p>I enjoy creating something new and beautiful which can serve a good purpose as well as I enjoy solving challenging puzzles through the code.</p>
                         <br />
                     </div>
                 
@@ -23,7 +23,13 @@ function About(){
                     <h3>My Journey:</h3>
                     <p>Being a developer was my dream since I was 12 years old. Through self-study, and 3-years experience as a QA-Engineer, I have acquired a strong foundation in the software development life cycle, testing company&apos;s products and understanding both front-end and back-end technologies.</p>
                     <br/>
-                    <p>In 2022 I&apos;ve took part in Practicum100 Full-Stack course, which I&apos;ve succesfully finished and gained some vital skills, by making my own projects in React.JS with a Node.JS back-end. Currently, I am part of Desight studio, however I am open for some new offerings and experiences.</p>
+                    <p>In 2022 I took part in Practicum100 Full-Stack course, which I&apos;ve succesfully finished and gained some vital skills, by making my own projects in React.JS with a Node.JS back-end.</p>
+                    <br/>
+                    <p>In 2023 I became a part of Desight studio, where I&apos;ve polished my skills in frontend, by being provided with some real tasks and problems.</p>
+                    <br/>
+                    <p>In 2024 I started to work as a Junior Mobile Developer for 18/24 company, contributing its app to the production. Some of my changes like Login/Registration and Main Menu that I wrote, even made it to the App Store and Google Play!</p>
+                    <br/>
+                    <p>Right now I'm looking for a new opportunity to grow, collaborate, meet new great people with whom I can learn and build great products. So, feel free to reach out!</p>
                 </div>
             </div>
         </section>

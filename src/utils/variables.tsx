@@ -2,7 +2,7 @@ export const skills = [
     { src: require("@images/html.svg").default, alt: "HTML" },
     { src: require("@images/css.svg").default, alt: "CSS" },
     { src: require("@images/git.svg").default, alt: "Git" },
-    { src: require("@images/api.svg").default, alt: "API" },
+    { src: require("@images/api.svg").default, alt: "REST API" },
     { src: require("@images/jira.svg").default, alt: "Jira" },
     { src: require("@images/js.svg").default, alt: "JavaScript" },
     { src: require("@images/testing.svg").default, alt: "Testing" },
@@ -14,6 +14,17 @@ export const skills = [
     { src: require("@images/terminal.svg").default, alt: "Terminal" },
     { src: require("@images/ts.svg").default, alt: "TypeScript" },
     { src: require("@images/mongo.svg").default, alt: "MongoDB" },
+    { src: require("@images/placeholder.png").default, alt: "Tailwind CSS" },
+    { src: require("@images/placeholder.png").default, alt: "Jetpack Compose" },
+    { src: require("@images/placeholder.png").default, alt: "Kotlin" },
+    { src: require("@images/placeholder.png").default, alt: "SwiftUI" },
+    { src: require("@images/placeholder.png").default, alt: "Swift" },
+    { src: require("@images/placeholder.png").default, alt: "UIKit" },
+    { src: require("@images/placeholder.png").default, alt: "Express.js" },
+    { src: require("@images/placeholder.png").default, alt: "Vercel" },
+    { src: require("@images/placeholder.png").default, alt: "Cypress" },
+    { src: require("@images/placeholder.png").default, alt: "CI/CD" },
+
 ];
 
 
