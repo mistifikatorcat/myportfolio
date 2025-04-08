@@ -25,7 +25,7 @@ export default function Home() {
      <Hero />
      <About />
      <Skills />
-     <Plans />
+     {/* <Plans /> */}
      {/* <CurrentProject /> */}
      <Projects />
      <MobileList />

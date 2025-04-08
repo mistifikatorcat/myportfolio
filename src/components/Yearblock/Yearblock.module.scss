@@ -1,0 +1,60 @@
+.yearBlock {
+    margin-bottom: 100px;
+    text-align: center;
+  
+    .yearDivider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 24px;
+      overflow: hidden;
+  
+      .line {
+        display: inline-block;
+        background-color: #ccc;
+        height: 1px;
+        width: 80px;
+        transform: scaleX(0); // Framer Motion will animate this
+        transform-origin: right;
+      }
+  
+      .line:last-child {
+        transform-origin: left;
+      }
+  
+      .year {
+        font-weight: bold;
+        font-size: 22px;
+        color: #555;
+        white-space: nowrap;
+      }
+    }
+  
+    .yearDescription {
+      font-size: 18px;
+      color: #333;
+      max-width: 600px;
+      margin: 0 auto 16px;
+      line-height: 1.6;
+    }
+  
+    .yearProjects {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+  
+      .projectLink {
+        color: #007aff;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.2s;
+  
+        &:hover {
+          color: #0051aa;
+        }
+      }
+    }
+  }
+  
