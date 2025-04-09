@@ -1,6 +1,11 @@
 .yearBlock {
   margin-bottom: 100px;
   text-align: center;
+  padding: 2rem 1rem;
+
+@media (max-width: 768px) {
+  padding: 1.5rem 1rem;
+}
 }
 
 .yearDivider {

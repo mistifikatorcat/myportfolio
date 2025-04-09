@@ -1,11 +1,13 @@
 .journeySection {
-    padding: 80px 20px;
+ 
     text-align: center;
   
-    @media (max-width: 768px) {
-      padding: 60px 16px;
-    }
+    padding: 6rem 1rem;
 
+    @media (max-width: 768px) {
+      padding: 4rem 1rem;
+    }
+    
     h2{
         padding-bottom: 60px;
 
