@@ -29,14 +29,14 @@
       font-weight: 400;
       position: relative;
   
-      &::after {
-        content: "";
-        display: block;
-        margin: 24px auto 0;
-        height: 2px;
-        width: 60px;
-        background-color: #ccc;
-      }
+    //   &::after {
+    //     content: "";
+    //     display: block;
+    //     margin: 24px auto 0;
+    //     height: 2px;
+    //     width: 60px;
+    //     background-color: #ccc;
+    //   }
   
       @media (max-width: 768px) {
         font-size: 18px;
