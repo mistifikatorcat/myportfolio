@@ -7,7 +7,7 @@ import { Project } from "@/utils/types";
 const Journey = () => {
     return (
       <section className={styles.journeySection}>
-        <h3 className={styles.journeyTitle}>My Journey:</h3>
+        <h2 className={styles.journeyTitle}>My Journey:</h2>
         <p className={styles.journeyIntro}>
           Being a developer was always my dream. Here's how the journey unfolded:
         </p>

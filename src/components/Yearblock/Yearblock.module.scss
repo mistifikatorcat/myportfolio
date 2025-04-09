@@ -1,60 +1,64 @@
 .yearBlock {
-    margin-bottom: 100px;
-    text-align: center;
-  
-    .yearDivider {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 16px;
-      margin-bottom: 24px;
-      overflow: hidden;
-  
-      .line {
-        display: inline-block;
-        background-color: #ccc;
-        height: 1px;
-        width: 80px;
-        transform: scaleX(0); // Framer Motion will animate this
-        transform-origin: right;
-      }
-  
-      .line:last-child {
-        transform-origin: left;
-      }
-  
-      .year {
-        font-weight: bold;
-        font-size: 22px;
+  margin-bottom: 100px;
+  text-align: center;
+}
 
-        white-space: nowrap;
-      }
-    }
-  
-    .yearDescription {
-      font-size: 18px;
+.yearDivider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  overflow: hidden;
 
-      max-width: 600px;
-      margin: 0 auto 16px;
-      line-height: 1.6;
-    }
-  
-    .yearProjects {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      flex-wrap: wrap;
-  
-      .projectLink {
+  .line {
+    display: inline-block;
+    background-color: #fff;
+    height: 2px;
+    width: 100px;
+    transform-origin: center;
+    scaleX: 0;
+  }
 
-        text-decoration: none;
-        font-weight: 500;
-        transition: color 0.2s;
-  
-        &:hover {
-          // color: #0051aa;
-        }
-      }
+  .leftLine {
+    transform-origin: right;
+  }
+
+  .rightLine {
+    transform-origin: left;
+  }
+
+  .year {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    white-space: nowrap;
+  }
+}
+
+.yearDescription {
+  font-size: 18px;
+  // color: #eee;
+  max-width: 700px;
+  margin: 0 auto 16px;
+  line-height: 1.6;
+}
+
+.yearProjects {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 10px;
+
+  .projectLink {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $orangeColor;
     }
   }
-  
+}

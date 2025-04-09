@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import styles from "./Yearblock.module.scss";
 import type { Project } from "@/utils/types";
 
@@ -14,41 +14,42 @@ type YearBlockProps = {
 
 const YearBlock : React.FC<YearBlockProps> = ({ year, description, projects }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true});
+
+  const { scrollYProgress} = useScroll({
+    target: ref,
+    offset: ["start end", "center center"]
+  })
+
+  const scale = useTransform(scrollYProgress, [0,1], [0,1])
 
   return (
     <div ref={ref} className={styles.yearBlock}>
-      <motion.div
+      <div
         className={styles.yearDivider}
-        initial={{ opacity: 0, y: 20 }}
-        animate={isInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.6 }}
       >
-        <span className={styles.line} />
+        <motion.span className={`${styles.line} ${styles.leftLine}`} style={{scaleX: scale}} />
         <span className={styles.year}>{year}</span>
-        <span className={styles.line} />
-      </motion.div>
+        <motion.span className={`${styles.line} ${styles.rightLine}`} style={{scaleX: scale}} />
+      </div>
 
-      <motion.p
+      <p
         className={styles.yearDescription}
-        initial={{ opacity: 0 }}
-        animate={isInView ? { opacity: 1, transition: { delay: 0.3 } } : {}}
       >
         {description}
-      </motion.p>
+      </p>
+
+      <h4>I've been working on:</h4>
 
       {projects.length > 0 && (
-        <motion.div
+        <div
           className={styles.yearProjects}
-          initial={{ opacity: 0 }}
-          animate={isInView ? { opacity: 1, transition: { delay: 0.5 } } : {}}
         >
-          {projects.map((p) => (
-            <a key={p.id} href={p.anchor} className={styles.projectLink}>
-              {p.heading}
+          {projects.map((project) => (
+            <a key={project.id} href={project.anchor} className={styles.projectLink}>
+              {project.heading}
             </a>
           ))}
-        </motion.div>
+        </div>
       )}
     </div>
   );
