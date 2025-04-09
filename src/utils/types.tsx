@@ -1,11 +1,15 @@
-export type Project = {
-    id: string;
-    name: string;
-    anchor: string;
-    // Optional extras:
-    description?: string;
-    technologies?: string[];
-  };
+export type Project =
+{
+  src: any;
+  link: string;
+  heading: string;
+  description: string;
+  features: string;
+  web: string;
+  id: number;
+  anchor: string;
+};
+
   
   export type JourneyItem = {
     year: number;

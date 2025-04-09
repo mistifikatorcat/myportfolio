@@ -7,7 +7,7 @@ export const skills = [
     { src: require("@images/api.svg").default, alt: "REST API" },
     { src: require("@images/jira.svg").default, alt: "Jira" },
     { src: require("@images/js.svg").default, alt: "JavaScript" },
-    { src: require("@images/testing.svg").default, alt: "Testing" },
+    // { src: require("@images/testing.svg").default, alt: "Testing" },
     { src: require("@images/next.svg").default, alt: "Next.js" },
     { src: require("@images/node.svg").default, alt: "Node.js" },
     { src: require("@images/react.svg").default, alt: "React" },
@@ -16,16 +16,16 @@ export const skills = [
     { src: require("@images/terminal.svg").default, alt: "Terminal" },
     { src: require("@images/ts.svg").default, alt: "TypeScript" },
     { src: require("@images/mongo.svg").default, alt: "MongoDB" },
-    { src: require("@images/placeholder.png").default, alt: "Tailwind CSS" },
-    { src: require("@images/placeholder.png").default, alt: "Jetpack Compose" },
-    { src: require("@images/placeholder.png").default, alt: "Kotlin" },
-    { src: require("@images/placeholder.png").default, alt: "SwiftUI" },
-    { src: require("@images/placeholder.png").default, alt: "Swift" },
-    { src: require("@images/placeholder.png").default, alt: "UIKit" },
-    { src: require("@images/placeholder.png").default, alt: "Express.js" },
-    { src: require("@images/placeholder.png").default, alt: "Vercel" },
-    { src: require("@images/placeholder.png").default, alt: "Cypress" },
-    { src: require("@images/placeholder.png").default, alt: "CI/CD" },
+    { src: require("@images/tailwindcss-dark.svg").default, alt: "Tailwind CSS" },
+    { src: require("@images/jetpackcompose.svg").default, alt: "Jetpack Compose" },
+    { src: require("@images/kotlin-icon.svg").default, alt: "Kotlin" },
+    { src: require("@images/swiftui.svg").default, alt: "SwiftUI" },
+    { src: require("@images/swift.svg").default, alt: "Swift" },
+    { src: require("@images/uikit.svg").default, alt: "UIKit" },
+    { src: require("@images/expressjs-dark.svg").default, alt: "Express.js" },
+    { src: require("@images/vercel.svg").default, alt: "Vercel" },
+    { src: require("@images/cypress.svg").default, alt: "Cypress" },
+    { src: require("@images/githubactions.svg").default, alt: "Github Actions" },
 
 ];
 
@@ -119,7 +119,7 @@ export const projects = [
         features: "Back-end authorization, Node.JS, React, Adaptive design",
         web: 'none',
         id: 3,
-        anhcor: "#around"
+        anchor: "#around"
     },
     {
         src: require("@images/homeland.png").default,

@@ -10,6 +10,7 @@ import Contact from '@/sections/Contact/Contact';
 import Footer from '@/components/Footer/Footer';
 // import CurrentProject from '@/sections/CurrentProject/CurrentProject';
 import Plans from '@/sections/Plans/Plans';
+import Journey from '@/sections/Journey/Journey';
 
 export const metadata = {
   title: "Daniel Evgrafov",
@@ -24,6 +25,7 @@ export default function Home() {
      <Header />
      <Hero />
      <About />
+     <Journey />
      <Skills />
      {/* <Plans /> */}
      {/* <CurrentProject /> */}

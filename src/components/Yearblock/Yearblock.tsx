@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import styles from "./Yearblock.module.scss";
@@ -43,7 +45,7 @@ const YearBlock : React.FC<YearBlockProps> = ({ year, description, projects }) =
         >
           {projects.map((p) => (
             <a key={p.id} href={p.anchor} className={styles.projectLink}>
-              {p.name}
+              {p.heading}
             </a>
           ))}
         </motion.div>

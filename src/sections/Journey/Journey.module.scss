@@ -1,0 +1,39 @@
+.journeySection {
+    padding: 80px 20px;
+    text-align: center;
+  
+    @media (max-width: 768px) {
+      padding: 60px 16px;
+    }
+
+    .journeyTitle{
+        font-size: 22px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+  
+    .journeyIntro {
+      max-width: 700px;
+      margin: 0 auto 60px;
+      font-size: 20px;
+      line-height: 1.7;
+
+      font-weight: 400;
+      position: relative;
+  
+      &::after {
+        content: "";
+        display: block;
+        margin: 24px auto 0;
+        height: 2px;
+        width: 60px;
+        background-color: #ccc;
+      }
+  
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+  }
+  

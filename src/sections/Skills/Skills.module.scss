@@ -15,11 +15,11 @@
         padding-top: 80px;
         display: grid;
         grid-template-rows: repeat(3, 1fr);
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         gap: 80px;
 
         @media (max-width: 965px) {
-            grid-template-rows: repeat(5, 1fr);
+            grid-template-rows: repeat(6, 1fr);
         grid-template-columns: repeat(3, 1fr);
         }
 
