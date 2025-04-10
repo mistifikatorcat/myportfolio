@@ -18,7 +18,7 @@ function Projects(){
                         align={index % 2 === 0 ? 'left' : 'right'}
                         link={project.link}
                         web={project.web}
-                        //TODO: add anchors
+                        anchor={project.anchor}
                         />
                 ))
                 }

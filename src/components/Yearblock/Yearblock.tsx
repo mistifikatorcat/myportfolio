@@ -45,7 +45,7 @@ const YearBlock : React.FC<YearBlockProps> = ({ year, description, projects }) =
           className={styles.yearProjects}
         >
           {projects.map((project) => (
-            <a key={project.id} href={project.anchor} className={styles.projectLink}>
+            <a key={project.id} href={`#${project.anchor}`} className={styles.projectLink}>
               {project.heading}
             </a>
           ))}

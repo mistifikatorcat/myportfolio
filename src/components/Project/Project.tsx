@@ -10,7 +10,8 @@ function Project({
   features,
   align,
   link,
-  web
+  web,
+  anchor
 }: {
   src: string;
   heading: string;
@@ -19,12 +20,13 @@ function Project({
   align: string;
   link: string;
   web: string;
+  anchor: string;
 }) {
   return (
     <div className={styles.project}>
       {align === "left" ? (
         <>
-          <div className={styles.wrapper} data-aos='fade-right'>
+          <div className={styles.wrapper} id={anchor} data-aos='fade-right'>
             <Image src={src} alt={heading} className={`${styles.image} `} />
           </div>
           <div className={`${styles.text} ${styles.textRight}`} data-aos='fade-left'>

@@ -39,7 +39,7 @@ export const projects = [
         features: "",
         web: "https://www.1824.co.il/",
         id: 11,
-        anchor: "#1824Web"
+        anchor: "1824Web"
     },
     {
         src: require("@images/placeholder.png").default,
@@ -49,7 +49,7 @@ export const projects = [
         features: "",
         web: "",
         id: 10,
-        anchor: "#1824App"
+        anchor: "1824App"
     },
     {
         src: require("@images/desight.png").default,
@@ -59,7 +59,7 @@ export const projects = [
         features: "Next.js, zod, TS, Sass",
         web: 'https://desight.co',
         id: 9,
-        anchor: "#desight"
+        anchor: "desight"
     },
     {
         src: require("@images/recursion.png").default,
@@ -69,7 +69,7 @@ export const projects = [
         features: "Next.JS, Telegram Bot, React, Typescript, Vercel, Sass",
         web: 'none',
         id: 8,
-        anchor: "#portfolio"
+        anchor: "portfolio"
     },
     {
         src: require("@images/beebook.png").default,
@@ -79,7 +79,7 @@ export const projects = [
         features: "Next.JS, React, Typescript, Vercel, Sass",
         web: 'none',
         id: 7,
-        anchor: "#beetrade"
+        anchor: "beetrade"
     },
     {
         src: require("@images/libira.png").default,
@@ -89,7 +89,7 @@ export const projects = [
         features: "Next.JS, React, Typescript, Vercel, Sass",
         web: 'https://libira.co.il/en/events/',
         id: 6,
-        anchor: "#libira"
+        anchor: "libira"
     },
     {
         src: require("@images/habit.png").default,
@@ -99,7 +99,7 @@ export const projects = [
         features: "Back-end authorization, Node.JS, React, Adaptive design, MongoDB",
         web: 'none',
         id: 5,
-        anchor: "#habit"
+        anchor: "habit"
     },
     {
         src: require("@images/news.png").default,
@@ -109,7 +109,7 @@ export const projects = [
         features: "Back-end authorization, Node.JS, React, Adaptive design, MongoDB, external API",
         web: 'none',
         id: 4,
-        anchor: "#news"
+        anchor: "news"
     },
     {
         src: require("@images/around.png").default,
@@ -119,7 +119,7 @@ export const projects = [
         features: "Back-end authorization, Node.JS, React, Adaptive design",
         web: 'none',
         id: 3,
-        anchor: "#around"
+        anchor: "around"
     },
     {
         src: require("@images/homeland.png").default,
@@ -129,7 +129,7 @@ export const projects = [
         features: "Semantic HTML5, BEM, CSS",
         web: 'none',
         id: 2,
-        anchor: "#homeland"
+        anchor: "homeland"
     },
     {
         src: require("@images/coffeeshop.png").default,
@@ -139,7 +139,7 @@ export const projects = [
         features: "html, css",
         web: 'none',
         id: 1,
-        anchor: "#coffeeshop"
+        anchor: "coffeeshop"
     },
 ];
 
