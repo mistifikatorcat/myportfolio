@@ -3,6 +3,7 @@ import styles from "./Journey.module.scss";
 import { journey, projects } from "@/utils/variables";
 import YearBlock from "@/components/Yearblock/Yearblock";
 import { Project } from "@/utils/types";
+import TimelineCircle from "@/components/Yearblock/components/TimelineCircle";
 
 const Journey = () => {
     return (
@@ -12,18 +13,19 @@ const Journey = () => {
           Being a developer was always my dream. Here's how the journey unfolded:
         </p>
   
-        {journey.map(({ year, description, projects: projectIds }) => {
+        {journey.map(({ year, description, projects: projectIds }, index) => {
           const linkedProjects: Project[] = projectIds
             .map((id) => projects.find((p) => p.id === id))
             .filter((p): p is Project => p !== undefined); // Type guard
   
           return (
+
             <YearBlock
-              key={year}
               year={year}
               description={description}
               projects={linkedProjects}
             />
+      
           );
         })}
       </section>

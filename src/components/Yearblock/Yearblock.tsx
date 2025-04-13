@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import styles from "./Yearblock.module.scss";
 import type { Project } from "@/utils/types";
+import TimelineCircle from "./components/TimelineCircle";
 
 type YearBlockProps = {
   year: number;
@@ -12,24 +13,29 @@ type YearBlockProps = {
 };
 
 
-const YearBlock : React.FC<YearBlockProps> = ({ year, description, projects }) => {
+const YearBlock: React.FC<YearBlockProps> = ({ year, description, projects }) => {
   const ref = useRef(null);
 
-  const { scrollYProgress} = useScroll({
+  const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "center center"]
   })
 
-  const scale = useTransform(scrollYProgress, [0,1], [0,1])
+  const scale = useTransform(scrollYProgress, [0, 1], [0, 1])
 
   return (
     <div ref={ref} className={styles.yearBlock}>
-      <div
-        className={styles.yearDivider}
-      >
-        <motion.span className={`${styles.line} ${styles.leftLine}`} style={{scaleX: scale}} />
-        <span className={styles.year}>{year}</span>
-        <motion.span className={`${styles.line} ${styles.rightLine}`} style={{scaleX: scale}} />
+
+      <div className={styles.yearDivider}>
+        <motion.span
+          className={`${styles.line} ${styles.leftLine}`}
+          style={{ scaleX: scale }}
+        />
+        <TimelineCircle year={year} />
+        <motion.span
+          className={`${styles.line} ${styles.rightLine}`}
+          style={{ scaleX: scale }}
+        />
       </div>
 
       <p
