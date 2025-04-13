@@ -35,7 +35,7 @@ const TimelineCircle = ({year}: {year: number}) => {
           }}
         />
             <text
-          x="52%"
+          x="50%"
           y="52%"
           dominantBaseline="middle"
           textAnchor="middle"
