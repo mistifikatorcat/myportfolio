@@ -10,6 +10,8 @@ type YearBlockProps = {
   year: number;
   description: string;
   projects: Project[];
+  // isFirst?: boolean;
+  // isLast?: boolean;
 };
 
 
@@ -31,7 +33,12 @@ const YearBlock: React.FC<YearBlockProps> = ({ year, description, projects }) =>
           className={`${styles.line} ${styles.leftLine}`}
           style={{ scaleX: scale }}
         />
-        <TimelineCircle year={year} />
+        <div className={styles.timelineWrapper}>
+          <TimelineCircle
+            year={year}
+            // className={`${isFirst ? styles.first : ""} ${isLast ? styles.last : ""}`} //cannot find name isFirst and isLast
+          />
+        </div>
         <motion.span
           className={`${styles.line} ${styles.rightLine}`}
           style={{ scaleX: scale }}

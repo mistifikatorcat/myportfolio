@@ -9,12 +9,15 @@
 }
 
 
-  .timelineWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.timelineWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 360px; // or however tall your block needs
+  overflow: hidden; // <-- KEY
+}
 
-  }
   
 
 
@@ -27,10 +30,11 @@
     margin-bottom: 2rem;
   }
     .line {
-      width: 100px;       // fixed width for visual balance
+      width: 150px;       // fixed width for visual balance
       height: 2px;
       background-color: #fff;
       transform-origin: center; // default fallback
+      z-index: 0;
     }
     
     .leftLine {

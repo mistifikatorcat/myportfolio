@@ -4,7 +4,7 @@ import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import styles from "./TimelineCircle.module.scss";
 
-const TimelineCircle = ({year}: {year: number}) => {
+const TimelineCircle = ({ year, className = "" }: { year: number; className?: string }) => {
   const ref = useRef(null);
 
   // Tracks scroll progress through this specific element
@@ -15,9 +15,22 @@ const TimelineCircle = ({year}: {year: number}) => {
 
   // Animate stroke drawing from 0 to 1
   const pathLength = useTransform(scrollYProgress, [0, 1], [0, 1]);
+  const scaleY = useTransform(scrollYProgress, [0, 1], [0, 1])
 
   return (
-    <div className={styles.circleWrapper} ref={ref}>
+    <div className={`${styles.circleWrapper} ${className}`} ref={ref}>
+      <motion.div
+        className={styles.verticalLine}
+        initial={{ scaleY: 0 }}
+        style={{
+          scaleY,
+          translateX: "-50%", // ← now transform chain works!
+        }}
+      />
+
+
+
+
       <motion.svg
         className={styles.circle}
         viewBox="0 0 50 50"
@@ -34,8 +47,8 @@ const TimelineCircle = ({year}: {year: number}) => {
             pathLength,
           }}
         />
-            <text
-          x="50%"
+        <text
+          x="52%"
           y="52%"
           dominantBaseline="middle"
           textAnchor="middle"

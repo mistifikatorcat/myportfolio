@@ -2,9 +2,48 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    width: 180px;
+    height: 180px;
 
-    width: 60px;
-    height: 60px;
+    .verticalLine {
+      position: absolute;
+
+      top: -120%;            
+      left: 50%;
+      width: 2px;
+      height: 215px;
+      background-color: #fff;
+      transform-origin: bottom; // grows from bottom to top
+      // transform: translateX(-50%);
+      z-index: 0;
+    }
+    
+    
+
+    
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   top: -200px;     // how far the line reaches upward
+  //   bottom: 75px;   // how far the line goes downward
+  //   left: 50%;
+  //   width: 2px;
+  //   background-color: #fff;
+  //   transform: translateX(-50%);
+  //   z-index: 0;
+  // }
+
+  // // Optionally fade the top and bottom circles' lines
+  // &.first::before {
+  //   top: 30px; // shorter top line for first item
+  // }
+
+  // &.last::before {
+  //   bottom: 30px; // shorter bottom line for last item
+  // }
+
+
   }
   
   .circle {
@@ -20,5 +59,6 @@
     font-weight: bold;
     font-family: inherit;
     pointer-events: none;
+    letter-spacing: 2px;
   }
   
