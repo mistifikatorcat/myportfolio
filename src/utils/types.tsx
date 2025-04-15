@@ -1,6 +1,7 @@
 export type Project =
 {
   src: any;
+  thumbnail: any;
   link: string;
   heading: string;
   description: string;
@@ -14,5 +15,6 @@ export type Project =
   export type JourneyItem = {
     year: number;
     description: string;
-    projectIds: string[]; // references to Project by ID
+    projectIds: string[];
+    stack: string // references to Project by ID
   };

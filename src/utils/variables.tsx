@@ -33,6 +33,7 @@ export const skills = [
 export const projects = [
     {
         src: require("@images/placeholder.png").default,
+        thumbnail: require("@images/thumbnail.png").default,
         link: "",
         heading: '18/24 Website',
         description: "",
@@ -43,6 +44,7 @@ export const projects = [
     },
     {
         src: require("@images/placeholder.png").default,
+        thumbnail: require("@images/thumbnail.png").default,
         link: "",
         heading: '18/24 App',
         description: "",
@@ -53,6 +55,7 @@ export const projects = [
     },
     {
         src: require("@images/desight.png").default,
+        thumbnail: require("@images/thumbnail.png").default,
         link: 'https://github.com/matveisch/desight',
         heading: 'Desight Studio',
         description: "The website for the startup studio, I'm currently being a part of. It has complex design and plenty of cool animations that I was happy to look-through and learn about.",
@@ -63,6 +66,7 @@ export const projects = [
     },
     {
         src: require("@images/recursion.png").default,
+        thumbnail: require("@images/thumbnail.png").default,
         link: 'https://github.com/mistifikatorcat/myportfolio',
         heading: "This very portfolio",
         description: "Even this portfolio is sort of challenge for me, because here I'm trying to build my own website from scratch, by using Next.js Vercel and a Telegram Bot for the first time. And if you're reading this, then it means I have succeeded :)",
@@ -73,6 +77,7 @@ export const projects = [
     },
     {
         src: require("@images/beebook.png").default,
+        thumbnail: require("@images/thumbnail.png").default,
         link: 'https://github.com/matveisch/bee-book',
         heading: "Bee Book by BeeTrade",
         description: "Commercial project for the book promotion. Took part in the development of this website as a part of Desight studio.",
@@ -83,6 +88,7 @@ export const projects = [
     },
     {
         src: require("@images/libira.png").default,
+        thumbnail: require("@images/thumbnail.png").default,
         link: 'https://github.com/matveisch/libiro',
         heading: "Libira Bar",
         description: "The first project I took part in making of as a part of the Desight team.",
@@ -93,6 +99,7 @@ export const projects = [
     },
     {
         src: require("@images/habit.png").default,
+        thumbnail: require("@images/thumbnail.png").default,
         link: 'https://github.com/mistifikatorcat/habit_tracker',
         heading: "Habit Tracker",
         description: "My first independent project. Web Application that lets you keep track of your habits. ",
@@ -104,6 +111,7 @@ export const projects = [
     {
         src: require("@images/news.png").default,
         link: 'https://github.com/mistifikatorcat/news-explorer-frontend',
+        thumbnail: require("@images/thumbnail.png").default,
         heading: "News Explorer",
         description: "Search the latest news by any topic you want, and save the articles from the NewsAPI you've liked to your page.",
         features: "Back-end authorization, Node.JS, React, Adaptive design, MongoDB, external API",
@@ -113,6 +121,7 @@ export const projects = [
     },
     {
         src: require("@images/around.png").default,
+        thumbnail: require("@images/thumbnail.png").default,
         link: 'https://github.com/mistifikatorcat/react-around-api-full',
         heading: "Around The Us",
         description: "The Around the US project is a photo-sharing web-application on React with node.js based back-end for users and content, where users can share their pictures and like pictures of the other users.",
@@ -123,6 +132,7 @@ export const projects = [
     },
     {
         src: require("@images/homeland.png").default,
+        thumbnail: require("@images/thumbnail.png").default,
         link: 'https://github.com/mistifikatorcat/web_project_3',
         heading: "From Homeland to Homeland",
         description: "This is the second project of the Web Development program at Practicum by Yandex. It was created using HTML and CSS, based on the design brief.",
@@ -133,6 +143,7 @@ export const projects = [
     },
     {
         src: require("@images/coffeeshop.png").default,
+        thumbnail: require("@images/thumbnail.png").default,
         link: 'https://github.com/mistifikatorcat/project_2',
         heading: "CoffeeShop",
         description: "My first project as a part of Practicum course. Plain html and css, nothing more, nothing less.",
@@ -148,20 +159,25 @@ export const journey = [
 
     {
         year: 2022,
-        description: "Took part in Practicum100 Full-Stack course, which I've succesfully finished and gained some vital skills, by making my own projects in React.JS with a Node.JS back-end.",
-        projects: [1, 2, 3, 4]
+        description: `2022 was my last serious attempt to get into development. I’d tried before — countless tutorials, a bunch of abandoned side projects — but never got far. This time, I joined a structured course and stuck with it.
+       Something clicked. For the first time, I built projects that felt real and they weren’t just exercises; they were working products with actual frontend and backend logic. 
+       That’s when I realized that I'm really onto something.`,
+        projects: [1, 2, 3, 4],
+        stack: "HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB"
     },
 
     {
         year: 2023,
         description: "Finished the Practicum100 course, tried my own skills on building my own project from scratch. Then I've became a part of Desight web-studio team, where I polished my skills, by being provided real-world tasks and problems.",
-        projects: [5, 6, 7, 9]
+        projects: [5, 6, 7, 9],
+        stack: "Typescript, Vercel, Sass, Next.JS"
     },
 
     {
         year: 2024,
         description: "I started to work as a Junior Mobile Developer for 18/24 company, contributing its app to the production. Some of my changes like Login/Registration and Main Menu that I wrote, even made it to the App Store and Google Play! Also I wrote a brand-new website for them from scratch, for the first time trying mobile-first approach and Tailwind-CSS, as well as providing automated testing through Cypress.",
-        projects: [10, 11]
+        projects: [10, 11],
+        stack: "Swift, SwiftUI, UIKit, Kotlin, Jetpack Compose, Tailwind CSS, Cypress"
     },
 
     {
