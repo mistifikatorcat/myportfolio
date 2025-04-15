@@ -159,30 +159,47 @@ export const journey = [
 
     {
         year: 2022,
-        description: `2022 was my last serious attempt to get into development. I’d tried before — countless tutorials, a bunch of abandoned side projects — but never got far. This time, I joined a structured course and stuck with it.
-       Something clicked. For the first time, I built projects that felt real and they weren’t just exercises; they were working products with actual frontend and backend logic. 
-       That’s when I realized that I'm really onto something.`,
+        description: `2022 was my last serious attempt to get into development. I’d tried before — countless tutorials, a bunch of abandoned side projects — but never got far. This time, I joined a structured course and followed it through.
+      
+        ||Something clicked. For the first time, I built projects that felt real and they weren’t just exercises; they were working products with actual frontend and backend logic. 
+
+       ||That’s when I realized that I'm really onto something.`,
         projects: [1, 2, 3, 4],
         stack: "HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB"
     },
 
     {
         year: 2023,
-        description: "Finished the Practicum100 course, tried my own skills on building my own project from scratch. Then I've became a part of Desight web-studio team, where I polished my skills, by being provided real-world tasks and problems.",
+      description: `2023 started with my first solo project — a habit tracker. It was technically similar to the News Explorer I built earlier, but this time I built it entirely on my own, from setup to deployment.
+
+||Later that year, I teamed up with a few friends to start what we called Desight Studio — our own little web studio experiment. We took on real projects, split responsibilities, and worked like a small product team. My focus was mostly on UI implementation and responsive layout, but I learned a lot about team communication, fast feedback loops, and keeping a consistent codebase across contributors.
+
+||That year, I also added TypeScript, Next.js, Vercel, and SASS to my stack. Slowly but surely, I was becoming the kind of developer I had once looked up to.`,
+
         projects: [5, 6, 7, 9],
-        stack: "Typescript, Vercel, Sass, Next.JS"
+        stack: "Typescript, Vercel, Sass, Next.JS, Three.js, Framer-motion"
     },
 
     {
         year: 2024,
-        description: "I started to work as a Junior Mobile Developer for 18/24 company, contributing its app to the production. Some of my changes like Login/Registration and Main Menu that I wrote, even made it to the App Store and Google Play! Also I wrote a brand-new website for them from scratch, for the first time trying mobile-first approach and Tailwind-CSS, as well as providing automated testing through Cypress.",
+        description: `
+        2024 took an unexpected turn. I ran into someone who was looking for a junior mobile developer to help with a project called 18/24. At that point, I hadn’t planned to get into mobile — but I was curious, and said yes.
+       
+            ||A few months later, I had contributed production-level code to their mobile app: registration flow, login, main menu — all live on the App Store and Google Play.
+
+            ||I also built their new marketing site from scratch. It was my first time working mobile-first, using Tailwind CSS, and writing automated tests with Cypress. It pushed me out of my comfort zone, and helped me grow faster than any course ever did.
+        `,
         projects: [10, 11],
         stack: "Swift, SwiftUI, UIKit, Kotlin, Jetpack Compose, Tailwind CSS, Cypress"
     },
 
     {
         year: 2025,
-        description: "Right now I'm looking for a new opportunity to grow, collaborate, meet new great people with whom I can learn and build great products. So, feel free to reach out!",
+        description: `
+        After wrapping up my work with 18/24, I’ve been refining my skills, experimenting with new tools, and planning the next step. I’m looking for a new challenge — ideally one where I can contribute to real products, collaborate with smart people, and keep leveling up as a developer.
+
+            ||I’m ready for it.
+        `,
         projects: [8]
     },
 

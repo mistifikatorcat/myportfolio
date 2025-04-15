@@ -61,8 +61,15 @@
 
 .descriptionBlock {
   flex: 1;
+  max-width: 40%;
   text-align: left;
 }
+
+.descriptionBlock p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
 
 .infoBlock {
   flex: 1;
@@ -75,7 +82,7 @@
 .stackSection {
   h4 {
     margin-bottom: 0.5rem;
-    color: $orangeColor;
+    color: #fff;
     font-size: 1rem;
   }
 }
@@ -86,7 +93,7 @@
   h4 {
     margin-bottom: 0.75rem;
     font-size: 1rem;
-    color: $orangeColor;
+    color: #fff;
   }
 }
 

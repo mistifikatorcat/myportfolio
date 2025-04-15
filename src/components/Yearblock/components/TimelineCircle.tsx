@@ -41,7 +41,7 @@ const TimelineCircle = ({ year, className = "" }: { year: number; className?: st
           cy="25"
           r="20"
           stroke="#ff9933"
-          strokeWidth="4"
+          strokeWidth="2"
           fill="none"
           style={{
             pathLength,

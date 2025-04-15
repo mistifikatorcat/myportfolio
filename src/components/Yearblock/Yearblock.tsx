@@ -50,8 +50,8 @@ const YearBlock: React.FC<YearBlockProps> = ({ year, description, projects, stac
       <div className={styles.yearContent}>
         {/* left column */}
         <div className={styles.descriptionBlock}>
-          {description.split('\n').map((line, i) => (
-            <p key={i}>{line}</p>
+          {description.split('||').map((para, i) => (
+            <p key={i}>{para.trim()}</p>
           ))}
         </div>
         {/* right column */}
