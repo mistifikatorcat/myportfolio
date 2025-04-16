@@ -126,7 +126,7 @@ Some of the features I worked on were published to the App Store and Google Play
         src: require("@images/around.png").default,
         thumbnail: require("@images/thumbnails/around.png").default,
         link: 'https://github.com/mistifikatorcat/react-around-api-full',
-        heading: "Around The Us",
+        heading: "Around The US",
         description: "The Around the US project is a photo-sharing web-application on React with node.js based back-end for users and content, where users can share their pictures and like pictures of the other users.",
         features: "Back-end authorization, Node.JS, React, Adaptive design",
         web: 'none',

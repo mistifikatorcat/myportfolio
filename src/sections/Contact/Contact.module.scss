@@ -106,4 +106,18 @@
 
     }
 
+    .social{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+
+        .icon{
+            transition: 0.3s;
+
+            &:hover {
+                transform: scale(1.5);
+              }
+        }
+    }
+
 }

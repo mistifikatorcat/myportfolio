@@ -120,7 +120,7 @@
   }
 
   .thumbnailWrapper {
-    width: 120px;              // or whatever size you want
+    width: 120px;              
   height: 120px;
   border-radius: 8px;
   overflow: hidden;
@@ -129,7 +129,7 @@
     .image {
       width: 100%;
       height: 100%;
-      object-fit: cover;       // 🔥 This crops & scales nicely
+      object-fit: cover;      
       display: block;
       border-radius: 8px;
     }
