@@ -52,7 +52,7 @@ export const projects = [
         description: `I also contributed to the ongoing redesign of the 18/24 mobile app. I implemented several key screens — including Login, Registration, and the Main Menu — using SwiftUI for iOS and Jetpack Compose for Android.
 Some of the features I worked on were published to the App Store and Google Play, which was a first for me. It gave me experience with real-world release cycles and the responsibility that comes with shipping to production.`,
         features: "SwiftUI, UIKit, Combine, Jetpack Compose, Appcompat",
-        web: "none",
+        web: "app",
         id: 10,
         anchor: "1824App"
     },
