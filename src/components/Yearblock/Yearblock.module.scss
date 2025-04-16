@@ -120,16 +120,18 @@
   }
 
   .thumbnailWrapper {
-    position: relative;
-    border-radius: 6px;
-    overflow: hidden;
+    width: 120px;              // or whatever size you want
+  height: 120px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
 
     .image {
       width: 100%;
-      height: auto;
-      border-radius: 6px;
-      object-fit: cover;
+      height: 100%;
+      object-fit: cover;       // 🔥 This crops & scales nicely
       display: block;
+      border-radius: 8px;
     }
 
     .projectTitle {

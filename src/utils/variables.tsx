@@ -32,8 +32,8 @@ export const skills = [
 
 export const projects = [
     {
-        src: require("@images/placeholder.png").default,
-        thumbnail: require("@images/thumbnails/thumbnail.png").default,
+        src: require("@images/1824website.png").default,
+        thumbnail: require("@images/thumbnails/1824web.png").default,
         link: "",
         heading: '18/24 Website',
         description: "",
@@ -43,8 +43,8 @@ export const projects = [
         anchor: "1824Web"
     },
     {
-        src: require("@images/placeholder.png").default,
-        thumbnail: require("@images/thumbnails/thumbnail.png").default,
+        src: require("@images/1824app.png").default,
+        thumbnail: require("@images/thumbnails/app.png").default,
         link: "",
         heading: '18/24 App',
         description: "",
@@ -55,7 +55,7 @@ export const projects = [
     },
     {
         src: require("@images/desight.png").default,
-        thumbnail: require("@images/thumbnails/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/desight.png").default,
         link: 'https://github.com/matveisch/desight',
         heading: 'Desight Studio',
         description: "The website for the startup studio, I'm currently being a part of. It has complex design and plenty of cool animations that I was happy to look-through and learn about.",
@@ -66,7 +66,7 @@ export const projects = [
     },
     {
         src: require("@images/recursion.png").default,
-        thumbnail: require("@images/thumbnails/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/portfolio.png").default,
         link: 'https://github.com/mistifikatorcat/myportfolio',
         heading: "This very portfolio",
         description: "Even this portfolio is sort of challenge for me, because here I'm trying to build my own website from scratch, by using Next.js Vercel and a Telegram Bot for the first time. And if you're reading this, then it means I have succeeded :)",
@@ -77,7 +77,7 @@ export const projects = [
     },
     {
         src: require("@images/beebook.png").default,
-        thumbnail: require("@images/thumbnails/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/book-cover.svg").default,
         link: 'https://github.com/matveisch/bee-book',
         heading: "Bee Book by BeeTrade",
         description: "Commercial project for the book promotion. Took part in the development of this website as a part of Desight studio.",
@@ -88,7 +88,7 @@ export const projects = [
     },
     {
         src: require("@images/libira.png").default,
-        thumbnail: require("@images/thumbnails/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/libira.jpg").default,
         link: 'https://github.com/matveisch/libiro',
         heading: "Libira Bar",
         description: "The first project I took part in making of as a part of the Desight team.",
@@ -99,7 +99,7 @@ export const projects = [
     },
     {
         src: require("@images/habit.png").default,
-        thumbnail: require("@images/thumbnails/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/habit.png").default,
         link: 'https://github.com/mistifikatorcat/habit_tracker',
         heading: "Habit Tracker",
         description: "My first independent project. Web Application that lets you keep track of your habits. ",
@@ -200,7 +200,8 @@ export const journey = [
 
             ||I’m ready for it.
         `,
-        projects: [8]
+        projects: [8],
+        stack: "Refreshing everything I know, to keep up to the rest of the world :)"
     },
 
 ]
