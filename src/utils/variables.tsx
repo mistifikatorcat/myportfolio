@@ -34,10 +34,12 @@ export const projects = [
     {
         src: require("@images/1824website.png").default,
         thumbnail: require("@images/thumbnails/1824web.png").default,
-        link: "",
+        link: "nda",
         heading: '18/24 Website',
-        description: "",
-        features: "",
+        description: `As part of my work with 18/24, I was tasked with rebuilding their entire website from the ground up.
+            I replaced the old static version with a modern, fully responsive site. I handled the frontend architecture, design adaptation, animations, page-level optimization, and even wrote the automated tests for it.
+            Even though I didn’t own the project, I was responsible for every part of its implementation — and proud to have seen it go live.`,
+        features: "Next.JS, Tailwind CSS, mobile-first approach, Cypress Testing, React, Typescript",
         web: "https://www.1824.co.il/",
         id: 11,
         anchor: "1824Web"
@@ -45,11 +47,12 @@ export const projects = [
     {
         src: require("@images/1824app.png").default,
         thumbnail: require("@images/thumbnails/app.png").default,
-        link: "",
+        link: "nda",
         heading: '18/24 App',
-        description: "",
-        features: "",
-        web: "",
+        description: `I also contributed to the ongoing redesign of the 18/24 mobile app. I implemented several key screens — including Login, Registration, and the Main Menu — using SwiftUI for iOS and Jetpack Compose for Android.
+Some of the features I worked on were published to the App Store and Google Play, which was a first for me. It gave me experience with real-world release cycles and the responsibility that comes with shipping to production.`,
+        features: "SwiftUI, UIKit, Combine, Jetpack Compose, Appcompat",
+        web: "none",
         id: 10,
         anchor: "1824App"
     },
@@ -170,7 +173,7 @@ export const journey = [
 
     {
         year: 2023,
-      description: `2023 started with my first solo project — a habit tracker. It was technically similar to the News Explorer I built earlier, but this time I built it entirely on my own, from setup to deployment.
+        description: `2023 started with my first solo project — a habit tracker. It was technically similar to the News Explorer I built earlier, but this time I built it entirely on my own, from setup to deployment.
 
 ||Later that year, I teamed up with a few friends to start what we called Desight Studio — our own little web studio experiment. We took on real projects, split responsibilities, and worked like a small product team. My focus was mostly on UI implementation and responsive layout, but I learned a lot about team communication, fast feedback loops, and keeping a consistent codebase across contributors.
 
