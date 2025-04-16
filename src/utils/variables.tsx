@@ -1,31 +1,31 @@
 import { features } from "process";
 
 export const skills = [
-    { src: require("@images/html.svg").default, alt: "HTML" },
-    { src: require("@images/css.svg").default, alt: "CSS" },
-    { src: require("@images/git.svg").default, alt: "Git" },
-    { src: require("@images/api.svg").default, alt: "REST API" },
-    { src: require("@images/jira.svg").default, alt: "Jira" },
-    { src: require("@images/js.svg").default, alt: "JavaScript" },
+    { src: require("@images/icons/html.svg").default, alt: "HTML" },
+    { src: require("@images/icons/css.svg").default, alt: "CSS" },
+    { src: require("@images/icons/git.svg").default, alt: "Git" },
+    { src: require("@images/icons/api.svg").default, alt: "REST API" },
+    { src: require("@images/icons/jira.svg").default, alt: "Jira" },
+    { src: require("@images/icons/js.svg").default, alt: "JavaScript" },
     // { src: require("@images/testing.svg").default, alt: "Testing" },
-    { src: require("@images/next.svg").default, alt: "Next.js" },
-    { src: require("@images/node.svg").default, alt: "Node.js" },
-    { src: require("@images/react.svg").default, alt: "React" },
-    { src: require("@images/responsive.svg").default, alt: "Adaptive Design" },
-    { src: require("@images/sass.svg").default, alt: "Sass" },
-    { src: require("@images/terminal.svg").default, alt: "Terminal" },
-    { src: require("@images/ts.svg").default, alt: "TypeScript" },
-    { src: require("@images/mongo.svg").default, alt: "MongoDB" },
-    { src: require("@images/tailwindcss-dark.svg").default, alt: "Tailwind CSS" },
-    { src: require("@images/jetpackcompose.svg").default, alt: "Jetpack Compose" },
-    { src: require("@images/kotlin-icon.svg").default, alt: "Kotlin" },
-    { src: require("@images/swiftui.svg").default, alt: "SwiftUI" },
-    { src: require("@images/swift.svg").default, alt: "Swift" },
-    { src: require("@images/uikit.svg").default, alt: "UIKit" },
-    { src: require("@images/expressjs-dark.svg").default, alt: "Express.js" },
-    { src: require("@images/vercel.svg").default, alt: "Vercel" },
-    { src: require("@images/cypress.svg").default, alt: "Cypress" },
-    { src: require("@images/githubactions.svg").default, alt: "Github Actions" },
+    { src: require("@images/icons/next.svg").default, alt: "Next.js" },
+    { src: require("@images/icons/node.svg").default, alt: "Node.js" },
+    { src: require("@images/icons/react.svg").default, alt: "React" },
+    { src: require("@images/icons/responsive.svg").default, alt: "Adaptive Design" },
+    { src: require("@images/icons/sass.svg").default, alt: "Sass" },
+    { src: require("@images/icons/terminal.svg").default, alt: "Terminal" },
+    { src: require("@images/icons/ts.svg").default, alt: "TypeScript" },
+    { src: require("@images/icons/mongo.svg").default, alt: "MongoDB" },
+    { src: require("@images/icons/tailwindcss-dark.svg").default, alt: "Tailwind CSS" },
+    { src: require("@images/icons/jetpackcompose.svg").default, alt: "Jetpack Compose" },
+    { src: require("@images/icons/kotlin-icon.svg").default, alt: "Kotlin" },
+    { src: require("@images/icons/swiftui.svg").default, alt: "SwiftUI" },
+    { src: require("@images/icons/swift.svg").default, alt: "Swift" },
+    { src: require("@images/icons/uikit.svg").default, alt: "UIKit" },
+    { src: require("@images/icons/expressjs-dark.svg").default, alt: "Express.js" },
+    { src: require("@images/icons/vercel.svg").default, alt: "Vercel" },
+    { src: require("@images/icons/cypress.svg").default, alt: "Cypress" },
+    { src: require("@images/icons/githubactions.svg").default, alt: "Github Actions" },
 
 ];
 
@@ -33,7 +33,7 @@ export const skills = [
 export const projects = [
     {
         src: require("@images/placeholder.png").default,
-        thumbnail: require("@images/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/thumbnail.png").default,
         link: "",
         heading: '18/24 Website',
         description: "",
@@ -44,7 +44,7 @@ export const projects = [
     },
     {
         src: require("@images/placeholder.png").default,
-        thumbnail: require("@images/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/thumbnail.png").default,
         link: "",
         heading: '18/24 App',
         description: "",
@@ -55,7 +55,7 @@ export const projects = [
     },
     {
         src: require("@images/desight.png").default,
-        thumbnail: require("@images/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/thumbnail.png").default,
         link: 'https://github.com/matveisch/desight',
         heading: 'Desight Studio',
         description: "The website for the startup studio, I'm currently being a part of. It has complex design and plenty of cool animations that I was happy to look-through and learn about.",
@@ -66,7 +66,7 @@ export const projects = [
     },
     {
         src: require("@images/recursion.png").default,
-        thumbnail: require("@images/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/thumbnail.png").default,
         link: 'https://github.com/mistifikatorcat/myportfolio',
         heading: "This very portfolio",
         description: "Even this portfolio is sort of challenge for me, because here I'm trying to build my own website from scratch, by using Next.js Vercel and a Telegram Bot for the first time. And if you're reading this, then it means I have succeeded :)",
@@ -77,7 +77,7 @@ export const projects = [
     },
     {
         src: require("@images/beebook.png").default,
-        thumbnail: require("@images/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/thumbnail.png").default,
         link: 'https://github.com/matveisch/bee-book',
         heading: "Bee Book by BeeTrade",
         description: "Commercial project for the book promotion. Took part in the development of this website as a part of Desight studio.",
@@ -88,7 +88,7 @@ export const projects = [
     },
     {
         src: require("@images/libira.png").default,
-        thumbnail: require("@images/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/thumbnail.png").default,
         link: 'https://github.com/matveisch/libiro',
         heading: "Libira Bar",
         description: "The first project I took part in making of as a part of the Desight team.",
@@ -99,7 +99,7 @@ export const projects = [
     },
     {
         src: require("@images/habit.png").default,
-        thumbnail: require("@images/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/thumbnail.png").default,
         link: 'https://github.com/mistifikatorcat/habit_tracker',
         heading: "Habit Tracker",
         description: "My first independent project. Web Application that lets you keep track of your habits. ",
@@ -111,7 +111,7 @@ export const projects = [
     {
         src: require("@images/news.png").default,
         link: 'https://github.com/mistifikatorcat/news-explorer-frontend',
-        thumbnail: require("@images/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/news.png").default,
         heading: "News Explorer",
         description: "Search the latest news by any topic you want, and save the articles from the NewsAPI you've liked to your page.",
         features: "Back-end authorization, Node.JS, React, Adaptive design, MongoDB, external API",
@@ -121,7 +121,7 @@ export const projects = [
     },
     {
         src: require("@images/around.png").default,
-        thumbnail: require("@images/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/around.png").default,
         link: 'https://github.com/mistifikatorcat/react-around-api-full',
         heading: "Around The Us",
         description: "The Around the US project is a photo-sharing web-application on React with node.js based back-end for users and content, where users can share their pictures and like pictures of the other users.",
@@ -132,9 +132,9 @@ export const projects = [
     },
     {
         src: require("@images/homeland.png").default,
-        thumbnail: require("@images/thumbnail.png").default,
+        thumbnail: require("@images/thumbnails/homeland.jpg").default,
         link: 'https://github.com/mistifikatorcat/web_project_3',
-        heading: "From Homeland to Homeland",
+        heading: "Practicum Art Gallery",
         description: "This is the second project of the Web Development program at Practicum by Yandex. It was created using HTML and CSS, based on the design brief.",
         features: "Semantic HTML5, BEM, CSS",
         web: 'none',
@@ -142,15 +142,15 @@ export const projects = [
         anchor: "homeland"
     },
     {
-        src: require("@images/coffeeshop.png").default,
-        thumbnail: require("@images/thumbnail.png").default,
+        src: require("@images/library.png").default,
+        thumbnail: require("@images/thumbnails/library.png").default,
         link: 'https://github.com/mistifikatorcat/project_2',
-        heading: "CoffeeShop",
+        heading: "Practicum Library",
         description: "My first project as a part of Practicum course. Plain html and css, nothing more, nothing less.",
         features: "html, css",
         web: 'none',
         id: 1,
-        anchor: "coffeeshop"
+        anchor: "library"
     },
 ];
 

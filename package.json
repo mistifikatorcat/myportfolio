@@ -11,7 +11,7 @@
   "dependencies": {
     "eslint": "^9.24.0",
     "eslint-config-next": "^15.2.4",
-    "framer-motion": "^12.6.3",
+    "framer-motion": "^12.7.3",
     "next": "^15.2.4",
     "node-telegram-bot-api": "^0.66.0",
     "normalize.css": "^8.0.1",
