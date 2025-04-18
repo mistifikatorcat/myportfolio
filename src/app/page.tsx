@@ -9,7 +9,7 @@ import MobileList from '@/components/Mobile/List/MobileList';
 import Contact from '@/sections/Contact/Contact';
 import Footer from '@/components/Footer/Footer';
 // import CurrentProject from '@/sections/CurrentProject/CurrentProject';
-import Plans from '@/sections/Plans/Plans';
+// import Plans from '@/sections/Plans/Plans';
 import Journey from '@/sections/Journey/Journey';
 
 export const metadata = {
