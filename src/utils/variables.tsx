@@ -135,7 +135,7 @@ Some of the features I worked on were published to the App Store and Google Play
     },
     {
         src: require("@images/homeland.png").default,
-        thumbnail: require("@images/thumbnails/homeland.jpg").default,
+        thumbnail: require("@images/thumbnails/gallery.jpg").default,
         link: 'https://github.com/mistifikatorcat/web_project_3',
         heading: "Practicum Art Gallery",
         description: "This is the second project of the Web Development program at Practicum by Yandex. It was created using HTML and CSS, based on the design brief.",
