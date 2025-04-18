@@ -56,6 +56,9 @@
 
   @media (max-width: 768px) {
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -64,6 +67,13 @@
   max-width: 40%;
   text-align: left;
   margin-left: 3rem;
+
+  @media (max-width: 768px){
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: 0;
+  }
 }
 
 .descriptionBlock p {
@@ -104,8 +114,12 @@
   gap: 1rem;
   justify-content: center;
 
-  @media (max-width: 768px) {
-    justify-content: center;
+  @media (max-width: 600px) {
+    /* switch to a 2‑column grid on small screens */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    justify-items: center;
   }
 }
 
@@ -115,13 +129,17 @@
   width: 150px;
   transition: transform 0.3s ease;
 
+  @media (max-width: 600px) {
+    width: 80px;                /* smaller thumbnail container */
+  }
+
   &:hover {
     transform: scale(1.05);
   }
 
   .thumbnailWrapper {
-    width: 120px;              
-  height: 120px;
+    width: 100%;              
+  height: 100%;
   border-radius: 8px;
   overflow: hidden;
   position: relative;

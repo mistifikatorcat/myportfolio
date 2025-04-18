@@ -23,7 +23,7 @@
     ;
 
     h2 {
-        padding-bottom: 60px;
+        padding-bottom: 1rem;
         text-align: center;
     }
 
@@ -94,30 +94,39 @@
 
         @media (max-width: 1080px) {
 
-            padding-top: 8px;
-
+            padding-top: 1rem;
+            padding-bottom: 3rem;
         }
 
         @media (max-width: 600px) {
 
             font-size: 16px;
-
         }
 
     }
 
-    .social{
+    .social {
         display: flex;
-        justify-content: center;
-        gap: 1rem;
+        flex-direction: column;
+        // text-align: center;
+        
+        .icons {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            gap: 1rem;
+            padding-top: 1rem;
 
-        .icon{
-            transition: 0.3s;
+            .icon {
+                transition: 0.3s;
 
-            &:hover {
-                transform: scale(1.5);
-              }
+                &:hover {
+                    transform: scale(1.5);
+                }
+            }
+            @media (max-width: 1080px) {
+                justify-content: center;
+            }
         }
     }
-
 }

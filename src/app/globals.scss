@@ -5,6 +5,12 @@
     font-family: var(--font-opensans);
 }
 
+html, body, #__next {
+  max-width: 100%;
+  overflow-x: hidden; 
+}
+
+
 body{
     font-style: normal;
     color: #f19748;
