@@ -199,12 +199,12 @@ export const journey = [
     {
         year: 2025,
         description: `
-        After wrapping up my work with 18/24, I’ve been refining my skills, experimenting with new tools, and planning the next step. I’m looking for a new challenge — ideally one where I can contribute to real products, collaborate with smart people, and keep leveling up as a developer.
+        After wrapping up my work with 18/24, including revamping the shopping cart and checkout flow on the app, I’ve been refining my skills, experimenting with new tools, and planning the next step. I’m looking for a new challenge — ideally one where I can contribute to real products, collaborate with smart people, and keep leveling up as a developer.
 
             ||I’m ready for it.
         `,
-        projects: [8],
-        stack: "Refreshing everything I know, to keep up to the rest of the world :)"
+        projects: [8, 10],
+        stack: "Jetpack Compose, SwiftUI, also refreshing everything I know to keep up to the rest of the world :)"
     },
 
 ]
