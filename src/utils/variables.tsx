@@ -32,6 +32,31 @@ export const skills = [
 
 export const projects = [
     {
+        src: require("@images/tipjar.png").default,
+        thumbnail: require("@images/thumbnails/tipjar.png").default,
+        link: "https://github.com/mistifikatorcat/tip_jar",
+        heading: 'Tip Jar DApp',
+        description: `The whole project can be described as "How I Learned to Stop Worrying and Love the Web3". It is a small decentralized tipping platform built to explore Ethereum smart contracts and Web3 integrations.
+        The project combines a Solidity smart contract deployed to the Ethereum Sepolia testnet, a Next.js frontend crafted with React and TypeScript, and styled with Tailwind CSS. You can connect via MetaMask, leave tips along with friendly messages, and view past contributions. Leveraged Hardhat for development, testing, and deployment, and ethers.js for seamless blockchain interactions.
+        And even though it is just a demo app, it's provided me a valuable experience with blockchain fundamentals and wallet integrations. And also made me refresh my knowledge on Tailwind, since I prefer Sass a bit more.
+        `,
+        features: "Next.JS, Tailwind CSS, Ethers.js, Sipolia, Solidity, Hardhat",
+        web: "none",
+        id: 13,
+        anchor: "tips"
+    },
+    {
+        src: require("@images/bikelanes.png").default,
+        thumbnail: require("@images/thumbnails/bikelane.png").default,
+        link: "https://github.com/mistifikatorcat/bike-lanes",
+        heading: 'Bike Lanes',
+        description: `This is the experimental prototype to explore Overpass API integrations over a Leaflet map in the Next.js app. It displays bike-lane data taken from OpenStreetMap.`,
+        features: "Next.JS, React, Typescript, Leaflet, osmtogeojson",
+        web: "none",
+        id: 12,
+        anchor: "bike"
+    },
+    {
         src: require("@images/1824website.png").default,
         thumbnail: require("@images/thumbnails/1824web.png").default,
         link: "nda",
@@ -199,11 +224,11 @@ export const journey = [
     {
         year: 2025,
         description: `
-        After wrapping up my work with 18/24, including revamping the shopping cart and checkout flow on the app, I’ve been refining my skills, experimenting with new tools, and planning the next step. I’m looking for a new challenge — ideally one where I can contribute to real products, collaborate with smart people, and keep leveling up as a developer.
+        After wrapping up my work with 18/24, including revamping the shopping cart and checkout flow on the app, I’ve been refining my skills, experimenting with something new, like creating DApps using ethers through Sipolia, or making a Bike-map of Israel, using Leaflet. So, as I'm planning my next step, I'm looking for a new challenge — ideally one where I can contribute to real products, collaborate with smart people, and keep leveling up as a developer.
 
             ||I’m ready for it.
         `,
-        projects: [8, 10],
+        projects: [8, 10, 12, 13],
         stack: "Jetpack Compose, SwiftUI, also refreshing everything I know to keep up to the rest of the world :)"
     },
 
